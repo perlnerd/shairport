@@ -1,16 +1,4 @@
-ShairPort is no longer maintained
-=========
-
-As I no longer use Shairport myself, I am no longer maintaining or supporting Shairport.
-Thanks to everyone who has contributed over the years; it's been a great experience.
-For the ongoing user, there are a great many forks and ports to choose from now, many of which are of a very high quality and well maintained.
-
-— James
-
-ShairPort
----------
-
-By [James Laird](mailto:jhl@mafipulation.org) ([announcement](http://mafipulation.org/blagoblig/2011/04/08#shairport))
+I forked shairport so I could be sure of always having this software available.  Who knows, I may start hacking it someday.
 
 What it is
 ----------
@@ -91,51 +79,3 @@ An example::
     artwork=cover-e6450a45ab900815e831434f5ee0499c.jpg
     genre=Rock
     comment=
-    
-
-Thanks
-------
-Big thanks to David Hammerton for releasing an ALAC decoder, which is reproduced here in full.
-Thanks to everyone who has worked to reverse engineer the RAOP protocol - after finding the keys, everything else was pretty much trivial.
-Thanks also to Apple for obfuscating the private key in the ROM image, using a scheme that made the deobfuscation code itself stand out like a flare.
-Thanks to Ten Thousand Free Men and their Families for having a computer and stuff.
-Thanks to wtbw.
-
-Contributors to version 1.x
----------------------------
-* [James Laird](http://mafipulation.org)
-* [Paul Lietar](http://www.lietar.net/~paul)
-* [Quentin Smart](http://github.com/sm3rt)
-* [Brendan Shanks](http://github.com/mrpippy)
-* [Peter Körner](http://mazdermind.de)
-* [Muffinman](http://github.com/therealmuffin)
-* [Skaman](http://github.com/skaman)
-* [Weston](http://github.com/wnielson)
-* [allesblinkt](http://github.com/allesblinkt)
-
-Contributors to version 0.x
----------------------------
-* [James Laird](mailto:jhl@mafipulation.org), author
-* [David Hammerton](http://craz.net/), ALAC decoder
-* [Albert Zeyer](http://www.az2000.de), maintainer
-* [Preston Marshall](mailto:preston@synergyeoc.com)
-* [Mads Mætzke Tandrup](mailto:mads@tandrup.org)
-* [Martin Spasov](mailto:mspasov@gmail.com)
-* [Oleg Kertanov](mailto:okertanov@gmail.com)
-* [Rafał Kwaśny](mailto:mag@entropy.be)
-* [Rakuraku Jyo](mailto:jyo.rakuraku@gmail.com)
-* [Vincent Gijsen](mailto:vtj.gijsen@gmail.com)
-* [lars](mailto:lars@namsral.com)
-* [Stuart Shelton](https://blog.stuart.shelton.me/)
-* [Andrew Webster](mailto:andywebs@gmail.com)
-
-Known Ports and Tools
----------------------
-* Java:
-    * [JAirPort](https://github.com/froks/JAirPort)
-    * [RPlay](https://github.com/bencall/RPlay)
-* Windows:
-    * [shairport4w](http://sf.net/projects/shairport4w)
-* OS X:
-    * [ShairportMenu](https://github.com/rcarlsen/ShairPortMenu), a GUI wrapper as a menu widget
-    * [MacShairport](https://github.com/joshaber/MacShairport)
